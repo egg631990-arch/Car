@@ -1,0 +1,133 @@
+@media (max-width: 1024px) {
+   body * {
+      display: none !important;
+   }
+
+   #No,
+   #No * {
+      display: revert !important;
+   }
+
+   #No {
+      display: flex !important;
+   }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+#No {
+display: none;
+}
+
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: black;
+   color: #fff;
+}
+
+@font-face {
+   font-family: 'Display';
+   src: url('../fonts/clash-display.otf') format('opentype');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+.footer {
+    font-family: 'Display';
+}
+
+.logo {
+   font-weight: 550;
+   display: flex;
+   justify-content: flex-start;
+   align-items: start;
+   margin-left: 10vw;
+   margin-top: 2vw;
+   font-size: 20px;
+}
+
+.Points {
+   font-weight: 400;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+   gap: 35px;
+   font-size: 15px;
+   margin-top: -22px;
+}
+
+#GetButton {
+   position: absolute;
+   right: 10vw;
+   top: 24px;
+
+   width: 170px;
+   height: 50px;
+   background-color: black;
+   color: #fff;
+   font-weight: 500;
+   font-size: 20px;
+   border: solid 1.5px #fff;
+   border-radius: 8px;
+   cursor: pointer;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#Luxury, #Car, #Let, #icon {
+   font-family: 'Display', sans-serif; 
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 8vw;
+   width: fit-content;                
+   margin-left: auto;                 
+   margin-right: auto;                
+}
+
+#Car {
+   flex-wrap: wrap;
+   justify-content: center;
+   font-weight: 100;
+   font-size: 25px;
+   white-space: normal;     
+   max-width: 800px;                    
+   margin-top: 40px;                    
+   margin-left: auto;                  
+}
+
+#Let {
+   flex-wrap: wrap;
+   justify-content: center;
+   font-weight: 500;
+   font-size: 20px;
+   white-space: normal;     
+   max-width: 800px;                    
+   margin-top: 40px;                    
+   margin-left: 45vw;  
+}
+
+#icon {
+   cursor: pointer;
+   margin-top: -22px;
+   margin-left: 53vw;
+   display: block;
+}
+
+@media (min-width: 1025px) and (max-width: 1624px) {
+   #icon {
+      margin-left: 57vw;
+   }
+}
+
+}
