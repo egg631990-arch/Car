@@ -1,25 +1,926 @@
-@media (max-width: 1024px) {
-   body * {
-      display: none !important;
-   }
+@media (max-width: 767px) {
 
-   #No,
-   #No * {
-      display: revert !important;
-   }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-   #No {
-      display: flex !important;
+  html,
+  body {
+    overflow-x: hidden;
+    background-color: #000;
+    color: #fff;
+  }
+
+  @font-face {
+    font-family: 'Display';
+    src: url('../fonts/clash-display.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .footer {
+    font-family: 'Display', sans-serif;
+  }
+
+  .logo {
+    font-family: 'Display', sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    margin-left: 5vw;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .Points {
+    display: none;
+  }
+
+  #GetButton {
+    position: absolute;
+    right: 5vw;
+    top: 16px;
+    width: 110px;
+    height: 36px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1.5px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Luxury {
+    font-family: 'Display', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 44px;
+    line-height: 1.05;
+    padding: 0 5vw;
+  }
+
+  #Luxurys {
+    display: block;
+    position: static;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    line-height: 1.45;
+    margin: 14px auto 0;
+    padding: 0 6vw;
+    max-width: 100%;
+  }
+
+  #Car {
+    font-family: 'Display', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 22px auto 0;
+    padding: 0 6vw;
+    max-width: 100%;
+  }
+
+  #Let {
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 20px auto 0;
+    padding: 0 6vw;
+    text-align: center;
+  }
+
+  #icon {
+    display: none;
+  }
+
+  .Car {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    z-index: -100;
+  }
+
+  #hr {
+    background: #999;
+    width: 90vw;
+    height: 1px;
+    margin: 30px auto 0;
+    display: block;
+  }
+
+  #Love {
+    font-family: 'Display', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 40px 5vw 0;
+    display: block;
+    text-align: left;
+  }
+
+  #Ditails {
+    color: #999;
+    font-family: 'Display', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.45;
+    margin: 10px 5vw 0;
+    display: block;
+    text-align: left;
+  }
+
+  .Cars3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  .Cars {
+    display: block;
+    width: 90vw;
+    max-width: 400px;
+    border-radius: 20px;
+  }
+
+  .TextCar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90vw;
+    max-width: 400px;
+    margin: 16px auto 0;
+    white-space: normal;
+    gap: 0;
+    padding: 0;
+  }
+
+  .TextCar__item {
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0;
+    flex: 1;
+    text-align: left;
+  }
+
+  .TextO {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90vw;
+    max-width: 400px;
+    margin: 8px auto 0;
+    white-space: normal;
+    gap: 8px;
+    padding: 0;
+  }
+
+  .TextCarO {
+    color: #999;
+    font-family: 'Display', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    flex: 1;
+    text-align: left;
+  }
+
+  .LearnRow {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 400px;
+    margin: 12px auto 0;
+    gap: 0;
+  }
+
+  .Arrow {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    margin: 0;
+    transform: none;
+    color: #fff;
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+  }
+
+  .Movie {
+    display: block;
+    width: 90vw;
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 50px auto 0;
+    box-shadow: 0 3px 10px 0.5px #3f3f3f;
+    z-index: -100;
+  }
+
+  .Start {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 18px auto 0;
+  }
+
+  .Play {
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 8px auto 0;
+    display: block;
+    text-align: center;
+  }
+
+  .We {
+    font-family: 'Display', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.1;
+    margin: 50px 5vw 0;
+    display: block;
+    text-align: left;
+  }
+
+  .CarFon {
+    display: block;
+    width: 90vw;
+    max-width: 500px;
+    margin: 25px auto 0;
+    border-radius: 15px;
+  }
+
+  .hr2 {
+    display: none;
+  }
+
+  #TextS {
+    font-family: 'Display', sans-serif;
+    font-size: 14px;
+    line-height: 1.55;
+    margin: 25px 5vw 0;
+    display: block;
+  }
+
+  .TextP {
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+  }
+
+  .TextsP {
+    color: #ccc;
+    font-family: 'Display', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    display: block;
+    margin-top: 8px;
+  }
+
+  #P1 {
+    margin-top: 30px;
+  }
+
+  #P2 {
+    margin-top: 30px;
+  }
+
+  #hrP2,
+  #hrP3 {
+    background-color: #555;
+    width: 90vw;
+    height: 1px;
+    margin: 20px auto 0;
+    border-radius: 25px;
+    display: block;
+  }
+
+  #click {
+    font-size: 14px;
+    margin: 25px 5vw 0;
+    display: block;
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+  }
+
+  #Get2 {
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+  }
+
+  #click2 {
+    font-size: 10px;
+    margin-left: 6px;
+  }
+
+  #CarQ {
+    display: block;
+    width: 90vw;
+    max-width: 500px;
+    margin: 50px auto 0;
+    border-radius: 15px;
+  }
+
+  #Book {
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.15;
+    margin: 35px 5vw 0;
+    display: block;
+    text-align: left;
+  }
+
+  #link {
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 14px 5vw 0;
+    display: block;
+    text-align: left;
+  }
+
+  #click1 {
+    font-size: 14px;
+    margin: 20px 5vw 0;
+    display: block;
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+  }
+
+  #Get3 {
+    font-family: 'Display', sans-serif;
+    font-weight: 600;
+  }
+
+  #click3 {
+    font-size: 10px;
+    margin-left: 6px;
+  }
+
+  #Lux {
+    display: block;
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 60px 5vw 0;
+  }
+
+  #Experience {
+    color: #999;
+    display: block;
+    font-family: 'Display', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 10px 5vw 0;
+  }
+
+  .footer__cols {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 35px 5vw 0;
+  }
+
+  .footer__col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Web {
+    font-family: 'Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 6px;
+    white-space: normal;
+  }
+
+  #hr4 {
+    background: #555;
+    width: 90vw;
+    height: 1px;
+    margin: 35px auto 0;
+    display: block;
+  }
+
+  .TextStop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Display', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 20px 5vw 50px;
+    gap: 0;
+    white-space: normal;
+  }
+
+  .Gap {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+   * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   
+   background-color: black;
+   color: #fff;
+}
+
+@font-face {
+   font-family: 'Display';
+   src: url('../fonts/clash-display.otf') format('opentype');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+.footer {
+    font-family: 'Display';
+}
+
+.logo {
+   font-weight: 550;
+   display: flex;
+   justify-content: flex-start;
+   align-items: start;
+   margin-left: 10vw;
+   margin-top: 2vw;
+   font-size: 20px;
+}
+
+.Points {
+   font-weight: 400;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+   gap: 35px;
+   font-size: 15px;
+   margin-top: -22px;
+}
+
+#GetButton {
+   display: flex;
+   position: absolute;
+   right: 10vw;
+   top: 24px;
+
+   width: 17vw;
+   height: 5vw;
+   background-color: black;
+   color: #fff;
+   font-weight: 500;
+   font-size: 2vw;
+   border: solid 1.5px #fff;
+   border-radius: 8px;
+   cursor: pointer;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -1vw;
+}
+
+#Luxury, #Car, #Let, #icon {
+   font-family: 'Display', sans-serif; 
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 8vw;
+   width: fit-content;                
+   margin-left: auto;                 
+   margin-right: auto;                
+}
+
+#Luxurys {
+   display: flex;
+   position: absolute;
+   left: 17vw;
+}
+
+#Car {
+   flex-wrap: wrap;
+   justify-content: center;
+   font-weight: 100;
+   font-size: 25px;
+   white-space: normal;     
+   max-width: 800px;                    
+   margin-top: 40px;                    
+   margin-left: auto;                  
+}
+
+#Let {
+   flex-wrap: wrap;
+   justify-content: center;
+   font-weight: 500;
+   font-size: 20px;
+   white-space: normal;     
+   max-width: 800px;                    
+   margin-top: 40px;                    
+   margin-left: 43vw;  
+}
+
+#icon {
+   display: none;
+}
+
+@media (min-width: 1025px) and (max-width: 1624px) {
+   #icon {
+      margin-left: 57vw;
    }
 }
 
-
-@media (min-width: 1024px) and (max-width: 1920px) {
-#No {
-display: none;
+.Car {
+   z-index: -100;
+   width: 100%;
+   margin-top: 150px;     
+   justify-content: center;                
 }
 
- * {
+#Luxurys {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-weight: 500;
+   font-size: 20px;
+   white-space: normal;     
+   max-width: 800px;                    
+   margin-top: -3vw;                    
+   margin-left: -8vw;  
+   color: #999999;
+}
+
+#hr {
+   display: flex;
+   justify-content: center;
+   z-index: 1000;
+   background: #999999;
+   width: 82vw;
+   height: 2px;
+   margin-top: 3vw;
+   margin-left: 8.5vw;
+}
+
+#Love {
+   font-family: 'Display', sans-serif; 
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 4vw;
+   width: fit-content;                
+   margin-top: 4vw;
+   margin-left: 8.5vw; 
+}
+
+#Ditails {
+   color: #999999;
+   font-family: 'Display', sans-serif; 
+   font-weight: 400;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 1vw;
+   width: fit-content;                
+   margin-top: -3.5vw;
+   margin-left: 65vw; 
+}
+
+.Cars3 {
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+   margin-top: 10vw;
+}
+
+.Cars {
+   display: flex;
+   width: 26vw;
+   border-radius: 25px;
+}
+
+.TextCar {
+   display: flex;
+   justify-content: center;
+   gap: 14vw;
+   white-space: nowrap;
+   margin-left: -14vw; 
+}
+
+.TextCar__item {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+   font-size: 2vw;
+   margin-top: 3vw;
+}
+
+.TextO {
+   display: flex;
+   justify-content: center;
+   gap: 10vw;
+   white-space: nowrap;
+   margin-left: -6vw;
+   margin-top: 1vw;
+}
+
+.TextCarO {
+   color: #999999;
+   font-family: 'Display', sans-serif; 
+   font-weight: 400;
+   font-size: 1vw;
+}
+
+.LearnRow {
+  display: flex;
+  justify-content: center; 
+  gap: 5vw;                
+}
+
+.Arrow {
+  font-size: 1vw;
+  display: flex;            
+  align-items: center;   
+  gap: 2px;                 
+  white-space: nowrap;
+  margin-left: 20vw;
+  margin-top: 2vw;
+  transform: translateX(-18.5vw);
+}
+
+.Movie {
+   width: 55vw;
+   z-index: -100;
+   border-radius: 25px;
+   margin-left: 22vw;
+   margin-top: 10vw;
+   box-shadow: 0px 3px 10px 0.5px #3f3f3f;
+}
+
+.Start {
+   display: flex;
+   margin-left: 48vw;
+   margin-top: -15vw;
+}
+
+.Play {
+   font-family: 'Display', sans-serif;
+   font-weight: 500;
+   font-size: 1vw;
+   z-index: 500;
+   display: flex;
+   margin-left: 45.5vw;
+   margin-top: 1vw;
+}
+
+.We {
+   font-family: 'Display', sans-serif; 
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 4vw;
+   width: fit-content;                
+   margin-top: 20vw;
+   margin-left: 8.5vw; 
+}
+
+.CarFon {
+   display: flex;
+   width: 35vw;
+   margin-top: 5vw;
+   margin-left: 8.5vw; 
+}
+
+.hr2 {
+   background-color: #FFFFFF40;
+   display: flex;
+   width: 0.1vw;
+   height: 43vw;
+   margin-top: -42vw;
+   margin-left: 50vw; 
+   border-radius: 25px;
+}
+.TextP {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+}
+
+.TextsP {
+   color: #CCCCCC;
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+}
+
+#TextS {
+   font-size: 1.5vw;
+   margin-top: -42vw;
+   margin-left: 55vw; 
+}
+
+#P1 {
+   margin-top: 5vw;
+}
+
+#hrP2 {
+   background-color: #999999;
+   display: flex;
+   width: 40vw;
+   height: 0.05vw;
+   margin-top: -25vw;
+   margin-left: 55vw; 
+   border-radius: 25px;
+}
+
+#hrP3 {
+   background-color: #999999;
+   display: flex;
+   width: 40vw;
+   height: 0.05vw;
+   margin-top: 15vw;
+   margin-left: 55vw; 
+   border-radius: 25px;
+}
+
+#P2 {
+     margin-top: 5vw;
+}
+
+#Get2 {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+}
+
+#click {
+   font-size: 1vw;
+   margin-left: 55vw; 
+   margin-top: 13vw
+}
+
+#click2 {
+   font-size: 0.4vw;
+   margin-left: 1vw; 
+}
+
+#CarQ {
+   display: flex;
+   justify-content: center;
+   width: 85vw;
+   margin-top: 10vw;
+   margin-left: 8.5vw; 
+}
+
+#Book {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 4vw;
+   width: fit-content;                
+   margin-top: -30vw;
+   margin-left: 15vw; 
+}
+
+#link {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+   color: #CCCCCC;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 1.3vw;
+   width: fit-content;                
+   margin-top: 2vw;
+   margin-left: 15vw; 
+}
+
+#Get3 {
+   font-family: 'Display', sans-serif; 
+   font-weight: 600;
+}
+
+#click3 {
+   font-size: 0.4vw;
+   margin-left: 1vw; 
+}
+
+#click1 {
+   font-size: 1vw;
+   margin-left: 15vw; 
+   margin-top: 3vw
+}
+
+#Lux {
+   display: flex;
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+   margin-top: 20vw;
+   margin-left: 8.5vw; 
+   font-size: 2vw;
+}
+
+#Experience {
+   color: #999999;
+   display: flex;
+   font-family: 'Display', sans-serif; 
+   font-weight: 400;
+   margin-top: 1vw;
+   margin-left: 8.5vw; 
+   font-size: 1vw;
+}
+
+.footer__cols {
+  display: flex;       
+  gap: 6vw;                   
+  margin-top: -7vw;
+  margin-left: 50vw;
+}
+
+.footer__col {
+  display: flex;              
+  flex-direction: column;    
+  gap: 1.3vw;
+}
+
+.Web {
+  font-family: 'Display', sans-serif;
+  font-weight: 500;
+  font-size: 2vw;
+  color: #999;
+  white-space: nowrap;
+  margin-bottom: 0.5vw;      
+}
+
+#hr4 {
+   display: flex;
+   justify-content: center;
+   z-index: 1000;
+   background: #555555;
+   width: 82vw;
+   height: 1px;
+   margin-top: 3vw;
+   margin-left: 8.5vw;
+}
+
+.TextStop {
+  display: flex;
+  font-family: 'Display', sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  white-space: nowrap;
+  margin-bottom: 0.5vw;  
+  gap: 47vw;  
+  margin-top: 5vw;
+  margin-left: 8.5vw;
+}
+
+.Gap {
+   display: flex;
+   gap: 2vw;
+}
+}
+
+
+@media (min-width: 1024px) and (max-width: 3000px) {
+* {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -94,6 +995,13 @@ body {
    width: fit-content;                
    margin-left: auto;                 
    margin-right: auto;                
+}
+
+#Luxurys {
+   display: flex;
+   position: absolute;
+   left: 17vw;
+   transform: translateY(3vw)
 }
 
 #Car {
