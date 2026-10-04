@@ -26,6 +26,7 @@ display: none;
 }
 
 body {
+   
    background-color: black;
    color: #fff;
 }
@@ -128,6 +129,360 @@ body {
    #icon {
       margin-left: 57vw;
    }
+}
+
+.Car {
+   z-index: -100;
+   width: 100%;
+   margin-top: 150px;     
+   justify-content: center;                
+}
+
+#Luxurys {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-weight: 500;
+   font-size: 20px;
+   white-space: normal;     
+   max-width: 800px;                    
+   margin-top: -3vw;                    
+   margin-left: -8vw;  
+   color: #999999;
+}
+
+#hr {
+   display: flex;
+   justify-content: center;
+   z-index: 1000;
+   background: #999999;
+   width: 82vw;
+   height: 2px;
+   margin-top: 3vw;
+   margin-left: 8.5vw;
+}
+
+#Love {
+   font-family: 'Display', sans-serif; 
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 4vw;
+   width: fit-content;                
+   margin-top: 4vw;
+   margin-left: 8.5vw; 
+}
+
+#Ditails {
+   color: #999999;
+   font-family: 'Display', sans-serif; 
+   font-weight: 400;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 1vw;
+   width: fit-content;                
+   margin-top: -3.5vw;
+   margin-left: 65vw; 
+}
+
+.Cars3 {
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+   margin-top: 10vw;
+}
+
+.Cars {
+   display: flex;
+   width: 26vw;
+   border-radius: 25px;
+}
+
+.TextCar {
+   display: flex;
+   justify-content: center;
+   gap: 14vw;
+   white-space: nowrap;
+   margin-left: -14vw; 
+}
+
+.TextCar__item {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+   font-size: 2vw;
+   margin-top: 3vw;
+}
+
+.TextO {
+   display: flex;
+   justify-content: center;
+   gap: 10vw;
+   white-space: nowrap;
+   margin-left: -6vw;
+   margin-top: 1vw;
+}
+
+.TextCarO {
+   color: #999999;
+   font-family: 'Display', sans-serif; 
+   font-weight: 400;
+   font-size: 1vw;
+}
+
+.LearnRow {
+  display: flex;
+  justify-content: center; 
+  gap: 5vw;                
+}
+
+.Arrow {
+  font-size: 1vw;
+  display: flex;            
+  align-items: center;   
+  gap: 2px;                 
+  white-space: nowrap;
+  margin-left: 20vw;
+  margin-top: 2vw;
+  transform: translateX(-18.5vw);
+}
+
+.Movie {
+   width: 55vw;
+   z-index: -100;
+   border-radius: 25px;
+   margin-left: 22vw;
+   margin-top: 10vw;
+   box-shadow: 0px 3px 10px 0.5px #3f3f3f;
+}
+
+.Start {
+   display: flex;
+   margin-left: 48vw;
+   margin-top: -15vw;
+}
+
+.Play {
+   font-family: 'Display', sans-serif;
+   font-weight: 500;
+   font-size: 1vw;
+   z-index: 500;
+   display: flex;
+   margin-left: 45.5vw;
+   margin-top: 1vw;
+}
+
+.We {
+   font-family: 'Display', sans-serif; 
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 4vw;
+   width: fit-content;                
+   margin-top: 20vw;
+   margin-left: 8.5vw; 
+}
+
+.CarFon {
+   display: flex;
+   width: 35vw;
+   margin-top: 5vw;
+   margin-left: 8.5vw; 
+}
+
+.hr2 {
+   background-color: #FFFFFF40;
+   display: flex;
+   width: 0.1vw;
+   height: 43vw;
+   margin-top: -42vw;
+   margin-left: 50vw; 
+   border-radius: 25px;
+}
+.TextP {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+}
+
+.TextsP {
+   color: #CCCCCC;
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+}
+
+#TextS {
+   font-size: 1.5vw;
+   margin-top: -42vw;
+   margin-left: 55vw; 
+}
+
+#P1 {
+   margin-top: 5vw;
+}
+
+#hrP2 {
+   background-color: #999999;
+   display: flex;
+   width: 40vw;
+   height: 0.05vw;
+   margin-top: -25vw;
+   margin-left: 55vw; 
+   border-radius: 25px;
+}
+
+#hrP3 {
+   background-color: #999999;
+   display: flex;
+   width: 40vw;
+   height: 0.05vw;
+   margin-top: 15vw;
+   margin-left: 55vw; 
+   border-radius: 25px;
+}
+
+#P2 {
+     margin-top: 5vw;
+}
+
+#Get2 {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+}
+
+#click {
+   font-size: 1vw;
+   margin-left: 55vw; 
+   margin-top: 13vw
+}
+
+#click2 {
+   font-size: 0.4vw;
+   margin-left: 1vw; 
+}
+
+#CarQ {
+   display: flex;
+   justify-content: center;
+   width: 85vw;
+   margin-top: 10vw;
+   margin-left: 8.5vw; 
+}
+
+#Book {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 4vw;
+   width: fit-content;                
+   margin-top: -30vw;
+   margin-left: 15vw; 
+}
+
+#link {
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+   color: #CCCCCC;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 180px;
+   font-size: 1.3vw;
+   width: fit-content;                
+   margin-top: 2vw;
+   margin-left: 15vw; 
+}
+
+#Get3 {
+   font-family: 'Display', sans-serif; 
+   font-weight: 600;
+}
+
+#click3 {
+   font-size: 0.4vw;
+   margin-left: 1vw; 
+}
+
+#click1 {
+   font-size: 1vw;
+   margin-left: 15vw; 
+   margin-top: 3vw
+}
+
+#Lux {
+   display: flex;
+   font-family: 'Display', sans-serif; 
+   font-weight: 500;
+   margin-top: 20vw;
+   margin-left: 8.5vw; 
+   font-size: 2vw;
+}
+
+#Experience {
+   color: #999999;
+   display: flex;
+   font-family: 'Display', sans-serif; 
+   font-weight: 400;
+   margin-top: 1vw;
+   margin-left: 8.5vw; 
+   font-size: 1vw;
+}
+
+.footer__cols {
+  display: flex;       
+  gap: 6vw;                   
+  margin-top: -7vw;
+  margin-left: 50vw;
+}
+
+.footer__col {
+  display: flex;              
+  flex-direction: column;    
+  gap: 1.3vw;
+}
+
+.Web {
+  font-family: 'Display', sans-serif;
+  font-weight: 500;
+  font-size: 2vw;
+  color: #999;
+  white-space: nowrap;
+  margin-bottom: 0.5vw;      
+}
+
+#hr4 {
+   display: flex;
+   justify-content: center;
+   z-index: 1000;
+   background: #555555;
+   width: 82vw;
+   height: 1px;
+   margin-top: 3vw;
+   margin-left: 8.5vw;
+}
+
+.TextStop {
+  display: flex;
+  font-family: 'Display', sans-serif;
+  font-weight: 600;
+  font-size: 1vw;
+  white-space: nowrap;
+  margin-bottom: 0.5vw;  
+  gap: 47vw;  
+  margin-top: 5vw;
+  margin-left: 8.5vw;
+}
+
+.Gap {
+   display: flex;
+   gap: 2vw;
 }
 
 }
